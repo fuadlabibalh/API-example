@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <% for (let i = 0; i < data.length; i++) { %>
+        <li><%= data[i].message %><%= data[i].title %></li>
+      <% } %>
+</body>
+    <div style="display: flex; width: 100vw; height: 100vh; justify-content: center; align-items: center; font-size: 20rem;">Users</div>
+    <script type="module" src="./browser-index.js"></script>
+
+</body>
+</html>
